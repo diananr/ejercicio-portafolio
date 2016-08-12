@@ -1,0 +1,59 @@
+*, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, siglas, dirección, grande, citar, código,
+del, DFN, em, img, ins, kbd, q, s, samp,
+pequeña, huelga, fuerte, sub, sup, tt, var,
+b, u, i, centro,
+dl, dt, dd, ol, ul, li,
+de campos, la forma, la etiqueta, la leyenda,
+mesa, subtítulo, tbody, tfoot, culata en T, tr, th, td,
+artículo, a un lado, lona, detalles, incrustar, 
+figura, figcaption, pie de página, encabezado, hgroup, 
+menú, de navegación, de salida, rubí, sección, resumen,
+tiempo, marca, audio, vídeo {
+    margin: 0;
+    padding: 0;
+}
+
+/**ICOMON**/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?kx0htn');
+  src:  url('../fonts/icomoon.eot?kx0htn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?kx0htn') format('truetype'),
+    url('../fonts/icomoon.woff?kx0htn') format('woff'),
+    url('../fonts/icomoon.svg?kx0htn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\41";
+}
+.icon-diamond:before {
+  content: "\42";
+}
+.icon-cup:before {
+  content: "\43";
+}
+.icon-paperplane:before {
+  content: "\44";
+}
+.icon-food:before {
+  content: "\45";
+}
